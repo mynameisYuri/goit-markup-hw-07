@@ -1,0 +1,99 @@
+.skills {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.skills_box,
+.occupation_box {
+    display: flex;
+}
+
+.occupation_box_container {
+    position: relative;
+    overflow: hidden;
+}
+
+.occupation_box_description {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--first_background_page_color);
+
+    position: absolute;
+
+    width: 370px;
+    height: 70px;
+
+    bottom: 0;
+
+    background: rgba(47, 48, 58, 0.8);
+
+    padding-top: 27px;
+    padding-bottom: 27px;
+
+}
+
+.skills_box {
+    justify-content: space-between;
+
+    .skills_box_list {
+            width: 270px;
+            text-align: left;
+        }
+}
+
+.skills_box_svg_container {
+    margin: 0;
+    padding: 0;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--fours_background_page_color);
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.personal_skills {
+    font-weight: 700;
+    font-size: var(--header_font_size);
+    line-height: var(--header_line-height);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--header_color_2);
+    margin-bottom: 10px;
+}
+
+.description_of_skills {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--header_color_3);
+}
+
+.what_we_do {
+    padding-bottom: 94px;
+}
+
+.occupation {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--header_color_2);
+    margin-bottom: 50px;
+}
+
+.occupation_box {
+    justify-content: space-between;
+}
+
+.occupation_box_list:not(:last-child) {
+    margin-right: 30px;
+}
