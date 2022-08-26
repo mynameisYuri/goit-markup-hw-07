@@ -3,17 +3,17 @@
     padding-bottom: 94px;
 }
 
-.skills_box,
-.occupation_box {
+.skills__box,
+.whatwedo__box {
     display: flex;
 }
 
-.occupation_box_container {
+.whatwedo__container {
     position: relative;
     overflow: hidden;
 }
 
-.occupation_box_description {
+.whatwedo__description {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -37,16 +37,17 @@
 
 }
 
-.skills_box {
+.skills__box {
     justify-content: space-between;
-
-    .skills_box_list {
+    .skills__list {
             width: 270px;
             text-align: left;
         }
 }
 
-.skills_box_svg_container {
+
+
+.skills__container {
     margin: 0;
     padding: 0;
     height: 120px;
@@ -58,7 +59,7 @@
     margin-bottom: 30px;
 }
 
-.personal_skills {
+.skills__title {
     font-weight: 700;
     font-size: var(--header_font_size);
     line-height: var(--header_line-height);
@@ -68,7 +69,7 @@
     margin-bottom: 10px;
 }
 
-.description_of_skills {
+.skills__description {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -76,11 +77,11 @@
     color: var(--header_color_3);
 }
 
-.what_we_do {
+.whatwedo {
     padding-bottom: 94px;
 }
 
-.occupation {
+.whatwedo__occupation {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -90,10 +91,10 @@
     margin-bottom: 50px;
 }
 
-.occupation_box {
+.whatwedo__box {
     justify-content: space-between;
 }
 
-.occupation_box_list:not(:last-child) {
+.whatwedo__list:not(:last-child) {
     margin-right: 30px;
 }

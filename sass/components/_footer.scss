@@ -1,18 +1,22 @@
-.footer_sections {
+.fsections {
     display: flex;
 }
 
-.footer_section_1 {
+.firstfsection {
     margin-right: 70px;
 }
 
-.footer_contacts {
+.fcontacts {
     background-color: var(--second_background_page_color);
     padding-top: 60px;
     padding-bottom: 60px;
 }
 
-.footer_logo {
+.firstfsection__logo {
+    margin-bottom: 20px;
+}
+
+.firstfsection__logoone {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -22,101 +26,97 @@
     color: var(--header_color_logo_studio_mail);
 }
 
-.footer_logo_p2 {
+.firstfsection__logotwo {
     color: var(--first_background_page_color);
 }
 
-.footer_logo_block {
-    margin-bottom: 20px;
-}
-
-.footer_adress {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: var(--header_font_size);
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: var(--first_background_page_color);
-
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-    &:hover {
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 400;
-            font-size: var(--header_font_size);
-            line-height: 1.71;
-            letter-spacing: 0.03em;
-            color: var(--hover_color);
-        }
-    &:focus {
-        color: var(--hover_color);
-    }
-}
-
-
-
-.footer_mail {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: var(--header_font_size);
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: rgba(225, 225, 225, 0.6);
-
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-    &:hover {
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 400;
-            font-size: var(--header_font_size);
-            line-height: 1.71;
-            letter-spacing: 0.03em;
-            color: var(--hover_color);
-        }
-    &:focus {
-        color: var(--hover_color);
-    }
-}
-
-.footer_tel {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: var(--header_font_size);
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: rgba(225, 225, 225, 0.6);
-
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-    &:hover {
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 400;
-            font-size: var(--header_font_size);
-            line-height: 1.71;
-            letter-spacing: 0.03em;
-            color: var(--hover_color);
-        }
-    &:focus {
-        color: var(--hover_color);
-    }
-}
-
-.footer_list:not(:last-child) {
+.firstfsection__list:not(:last-child) {
     margin-bottom: 9px;
 }
 
-.footer_section_2 {
+.firstfsection__adress {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--header_font_size);
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--first_background_page_color);
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: var(--header_font_size);
+            line-height: 1.71;
+            letter-spacing: 0.03em;
+            color: var(--hover_color);
+        }
+    &:focus {
+        color: var(--hover_color);
+    }
+}
+
+.firstfsection__mail {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--header_font_size);
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(225, 225, 225, 0.6);
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: var(--header_font_size);
+            line-height: 1.71;
+            letter-spacing: 0.03em;
+            color: var(--hover_color);
+        }
+    &:focus {
+        color: var(--hover_color);
+    }
+}
+
+.firstfsection__tel {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--header_font_size);
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(225, 225, 225, 0.6);
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: var(--header_font_size);
+            line-height: 1.71;
+            letter-spacing: 0.03em;
+            color: var(--hover_color);
+        }
+    &:focus {
+        color: var(--hover_color);
+    }
+}
+
+
+
+.secondfsection {
     margin-top: 12px;
     margin-right: 93px;
 }
 
-.footer_section_2_title {
+.secondfsection__title {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -129,15 +129,15 @@
     margin-bottom: 20px;
 }
 
-.footer_section_2_list {
+.secondfsection__list {
     display: flex;
 }
 
-.footer_section_2_link:not(:last-child) {
+.secondfsection__link:not(:last-child) {
     margin-right: 10px;
 }
 
-.footer_section_2_button {
+.secondfsection__button {
     padding: 0;
     border: none;
     border-radius: 50%;
@@ -156,17 +156,17 @@
     }
 }
 
-.footer_section_2_svg_style {
+.secondfsection__svg {
     margin: auto;
     text-align: center;
     display: block;
 }
 
-.footer_section_3 {
+.thirdfsection {
     margin-top: 12px;
 }
 
-.footer_section_3_title {
+.thirdfsection__title {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -179,11 +179,11 @@
     margin-bottom: 20px;
 }
 
-.footer_section_3_list {
+.thirdfsection__list {
     display: flex;
 }
 
-.footer_section_3_input {
+.thirdfsection__input {
     width: 358px;
     height: 50px;
     background: none;
@@ -195,11 +195,11 @@
     padding: 15px 16px;
 }
 
-.footer_section_3_input[type=email] {
+.thirdfsection__input[type=email] {
     color: var(--first_background_page_color);
 }
 
-.footer_section_3_input::placeholder {
+.thirdfsection__input::placeholder {
 
     font-weight: 400;
     font-size: 16px;
@@ -212,7 +212,7 @@
     color: rgba(255, 255, 255, 0.6);
 }
 
-.footer_section_3_button {
+.thirdfsection__button {
     display: flex;
     border-radius: 4px;
     padding: 10px 32px;
@@ -244,7 +244,7 @@
         }
 }
 
-.footer_section_3_button_svg {
+.thirdfsection__svg {
     fill: var(--first_background_page_color);
     text-align: center;
     margin-left: 10px;

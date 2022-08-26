@@ -1,13 +1,13 @@
-.regular_customers {
+.customers {
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
-.regular_customers_item:not(:last-child) {
+.customers__item:not(:last-child) {
     margin-right: 30px;
 }
 
-.regular_customers_title {
+.customers__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -18,22 +18,22 @@
     margin-bottom: 50px;
 }
 
-.regular_customers_list {
+.customers__list {
     display: flex;
     justify-content: center;
 }
 
-.regular_customers_svg_style {
+.customers__svg {
     margin: auto;
     text-align: center;
     display: block;
 }
 
-.regular_customers_item_parttwo:not(:last-child) {
+.customers__item:not(:last-child) {
     margin-right: 30px;
 }
 
-.regular_customers_item_parttwo {
+.customers__item {
     background-color: var(--first_background_page_color);
 
     width: 170px;
@@ -44,7 +44,7 @@
     align-items: center;
 }
 
-.regular_customers_item_link {
+.customers__link {
     margin: 0;
     padding: 0;
     width: 170px;

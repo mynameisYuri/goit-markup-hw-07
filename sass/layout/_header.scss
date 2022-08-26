@@ -6,33 +6,33 @@
 }
 
 .header_structure,
-.header_nav {
+.nav {
     display: flex;
     align-items: center;
 }
 
-.header_list {
+.nav__list {
     display: flex;
 }
 
-.header_list_links:not(:last-child) {
+.nav__links:not(:last-child) {
     margin-right: 50px;
 }
 
-.header_contacts {
+.contacts {
     display: flex;
     margin-left: auto;
 }
 
-.header_contacts .header_contacts_list+.header_contacts_list {
+.contacts .contacts__list+.contacts__list {
     margin-left: 50px;
 }
 
-.header_logo_block {
+.nav__logo {
     margin-right: 93px;
 }
 
-.header_logo {
+.nav__logoone {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -42,11 +42,11 @@
     color: var(--header_color_logo_studio_mail);
 }
 
-.header_logo_p2 {
+.nav__logotwo {
     color: var(--header_color_logo_p2);
 }
 
-.header_menu {
+.nav__menu {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -73,7 +73,7 @@
     }
 }
 
-.active_link::after {
+.nav__active::after {
 
     content: '';
 
@@ -89,13 +89,7 @@
     border-radius: 2px;
 }
 
-.active_link_portfolio::after {
-
-    text-decoration: underline;
-
-}
-
-.header_svg_items {
+.contacts__svg {
     margin-right: 10px;
     align-items: center;
     stroke: currentColor;
@@ -111,7 +105,7 @@
         }
 }
 
-.header_mail {
+.contacts__mail {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -135,7 +129,7 @@
     }
 }
 
-.header_tel {
+.contacts__tel {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;

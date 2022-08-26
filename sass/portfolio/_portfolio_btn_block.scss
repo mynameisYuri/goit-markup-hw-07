@@ -1,14 +1,14 @@
-.portfolio_buttons_block {
+.portfoliomenu {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
 }
 
-.portfolio_buttons_links:not(:last-child) {
+.portfoliomenu__links:not(:last-child) {
     margin-right: 8px;
 }
 
-.portfolio_btn {
+.portfoliomenu__btn {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;

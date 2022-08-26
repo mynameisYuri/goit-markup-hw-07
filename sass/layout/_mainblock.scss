@@ -1,15 +1,15 @@
-.main_title_block {
+.background {
     background-color: var(--second_background_page_color);
 
     padding-top: 200px;
     padding-bottom: 200px;
 }
 
-.main_title_block {
+.background {
     text-align: center;
 }
 
-.main_title {
+.background__title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -21,7 +21,7 @@
     margin-bottom: 30px;
 }
 
-.main_btn {
+.background__btn {
     display: inline-block;
     border-radius: 4px;
     padding: 10px 32px;
@@ -52,7 +52,7 @@
         }
 }
 
-.main_background_img {
+.backgroundimg {
     background-color: #C4C4C4;
 
     background-image:

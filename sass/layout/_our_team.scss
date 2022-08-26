@@ -1,10 +1,10 @@
-.our_team {
+.ourteam {
     background-color: var(--fours_background_page_color);
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
-.our_team_title {
+.ourteam__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -15,7 +15,7 @@
     margin-bottom: 50px;
 }
 
-.our_team_boxes {
+.ourteam__boxes {
     background-color: var(--first_background_page_color);
     box-sizing: content-box;
     padding-bottom: 30px;
@@ -23,28 +23,28 @@
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.our_team_boxes:not(:last-child) {
+.ourteam__boxes:not(:last-child) {
     margin-right: 30px;
 }
 
-.our_team_list {
+.ourteam__list {
     display: flex;
     justify-content: space-between;
 
 }
 
-.our_team_list_items_block {
+.ourteam__items {
     display: flex;
     justify-content: center;
 }
 
-.our_team_item {
+.ourteam__svg {
     margin: auto;
     text-align: center;
     display: block;
 }
 
-.our_team_item_button {
+.ourteam__button {
     padding: 0;
     border: none;
     width: 44px;
@@ -67,15 +67,15 @@
     }
 }
 
-.our_team_button_list:not(:last-child) {
+.ourteam__buttons:not(:last-child) {
     margin-right: 10px;
 }
 
-.specialist_photo {
+.ourteam__specialistph {
     margin-bottom: 30px;
 }
 
-.specialist_name {
+.ourteam__specialistn {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -86,7 +86,7 @@
     margin-bottom: 10px;
 }
 
-.job_title {
+.ourteam__position {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
